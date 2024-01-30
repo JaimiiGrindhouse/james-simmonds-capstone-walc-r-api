@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const port = 5059;
 
-const giftsRouter = require("./routes/bikeStorage");
+const bikeStorageRouter = require("./routes/bikeStorage");
 
 app.use(cors());
 app.use(express.static("public"));
